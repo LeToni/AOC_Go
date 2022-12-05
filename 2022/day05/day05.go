@@ -20,7 +20,7 @@ type stack struct {
 }
 
 func (s *stack) push(r []rune) {
-	if *problem == "2" {
+	if *problem == "1" {
 		for i := len(r); i > 0; i-- {
 			s.elements = append(s.elements, r[i-1])
 		}
